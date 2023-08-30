@@ -111,7 +111,6 @@ nav ul li:hover::after{
 .bridge-empathy-section{
     width: 100%;
     height: 500px;
-    padding: 80px;
     background-color:  rgb(212, 2, 149) ;
     background-image: url(../media/images/message-banner.jpg);
     background-size: cover;
@@ -123,17 +122,59 @@ nav ul li:hover::after{
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 500px;
+    /* width: 100%; */
+    height: 406px;
+    padding: 3em;
+
+    /* the gradient part */
+    background-image: linear-gradient(to right,
+     rgba(0,0,0,1) 20%, 
+     rgba(0,0,0,.7) 60%,
+     rgba(0,0,0,.4) 70%,
+     rgba(0,0,0,0) 100%);
 }
 .bridge-empathy-title{
     font-size: 60px;
     color: white;
+    margin-bottom: 15px;
 }
 .bridge-empathy-subtile{
     font-size: 40px;
     color: rgb(212, 2, 149);
+    margin-bottom: 15px;
 }
 .bridge-empathy-description{
+    width: 600px;
     color: white;
+    text-align: left;
+}
+
+/* ar vr bridge empathy sections */
+.ai-vr-bridge-section{
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    height: 500px;
+
+    width: 70%;
+
+}
+.ai-vr-bridge-banner{
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+.ar-vr-bridge-title{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.ar-vr-bridge-subtile{
+    font-size: 40px;
+    color: rgb(212, 2, 149);
+    margin-bottom: 15px;
+}
+.ar-vr-bridge-description{
+    width: 600px;
+    text-align: left;
 }
