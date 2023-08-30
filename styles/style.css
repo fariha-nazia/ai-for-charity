@@ -127,7 +127,7 @@ nav ul li:hover::after{
     padding: 3em;
 
     /* the gradient part */
-    background-image: linear-gradient(to right,
+    background-image: linear-gradient( to right,
      rgba(0,0,0,1) 20%, 
      rgba(0,0,0,.7) 60%,
      rgba(0,0,0,.4) 70%,
@@ -150,24 +150,29 @@ nav ul li:hover::after{
 }
 
 /* ar vr bridge empathy sections */
-.ai-vr-bridge-section{
-    margin: 25px auto;
-    display: flex;
-    align-items: center;
-    height: 500px;
+.correction{
+    width: 100%;
 
-    width: 70%;
+     /* the gradient part */
+     background-image: linear-gradient( to bottom right,
+     rgba(0,0,0,1) 20%, 
+     rgba(0,0,0,.7) 60%,
+     rgba(0,0,0,.4) 70%,
+     rgba(0,0,0,0) 100%);
 
 }
-.ai-vr-bridge-banner{
-    width: 40%;
-    border: 2px solid black;
-    border-radius: 5px;
-    
+.ai-vr-bridge-section{
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    height: 600px;
+
+    width: 80%;
 }
 .ar-vr-bridge-title{
     font-size: 60px;
     margin-bottom: 15px;
+    color: white;
 }
 .ar-vr-bridge-subtile{
     font-size: 40px;
@@ -175,6 +180,14 @@ nav ul li:hover::after{
     margin-bottom: 15px;
 }
 .ar-vr-bridge-description{
-    width: 600px;
+    width: 550px;
     text-align: left;
+    color: white;
+    
+}
+.ai-vr-bridge-banner{
+    width: 40%;
+    border: 2px solid black;
+    box-shadow: -20px 20px 10px rgb(75, 74, 74);
+    
 }
